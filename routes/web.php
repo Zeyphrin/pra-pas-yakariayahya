@@ -15,6 +15,8 @@ use App\Http\Controllers\NationalController;
 |
 */
 
+//Halo
+
 Route::get('/home', function () {
     return view('home',
 ["title" => "home"]);
