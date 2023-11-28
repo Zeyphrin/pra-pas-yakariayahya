@@ -9,6 +9,7 @@
           <a class="nav-link" aria-current="page" href="/home">Home</a>
           <a class="nav-link" href="/international">Luar Negeri</a>
           <a class="nav-link" href="/national">Dalam Negeri</a>
+          <a class="nav-link" href="/feature">Feature</a>
         </div>
       </div>
     </div>

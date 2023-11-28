@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\InterController;
 use App\Http\Controllers\NationalController;
+use App\Http\Controllers\FeatureController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -36,4 +38,12 @@ Route::get('national',[
 
 Route::get('national/{detail}',[
     NationalController::class, 'detail'
+]);
+
+Route::get('feature',[
+    FeatureController::class, 'feature'
+]);
+
+Route::get('feature/{detail}',[
+    FeatureController::class, 'detail'
 ]);
